@@ -20,7 +20,7 @@ import { ensureAuthenticated } from "../middleware/auth.js";
 
 const router = express.Router();
 
-router.get("/google-sheet-write", ensureAuthenticated, writeInsideGooglesheet);
+router.post("/google-sheet-write", ensureAuthenticated, writeInsideGooglesheet);
 router.get("/google-sheet-read", ensureAuthenticated, readFromGoogleSheet);
 
 export default router;

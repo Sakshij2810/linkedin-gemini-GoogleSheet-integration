@@ -1,6 +1,6 @@
 // import { GoogleSpreadsheet } from "google-spreadsheet";
 // import { JWT } from "google-auth-library";
-// import credentials from "../../linkedin-gemini-gs-integration-056f7e45069c.json" assert { type: "json" };
+// // import credentials from "../../linkedin-gemini-gs-integration-056f7e45069c.json" assert { type: "json" };
 
 // // Function to write data into Google Sheet
 // export const writeInsideGooglesheet = async (req, res) => {
@@ -30,6 +30,8 @@
 //     const dataArray = [
 //       { Id: 1, Name: "Sakshi", Email: "sakshi@gmail.com" },
 //       { Id: 2, Name: "Vaishnavi", Email: "vaishnavi@gmail.com" },
+//       { Id: 3, Name: "Ram", Email: "sakshi@gmail.com" },
+//       { Id: 4, Name: "Geeta", Email: "vaishnavi@gmail.com" },
 //     ];
 
 //     await sheet.addRows(dataArray);
